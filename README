@@ -1,0 +1,11 @@
+Logstream is a header-only library.
+It depends on boost libraries.
+Your program (as well as example program) must be linked against doost_thread and boost_filesystem libraries.
+
+Logstream source in logstream/ directory.
+Example program source is in example/ directory.
+
+To build example using Scons just type
+$ scons
+
+enjoy.
