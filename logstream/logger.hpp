@@ -36,7 +36,7 @@ public:
 	 */
 	explicit logger(const format::formatter& f) : formatter_(f) {}
 
-	void set_formatter(format::formatter f) {
+	void set_formatter(const format::formatter& f) {
 		formatter_ = f;
 	}
 
