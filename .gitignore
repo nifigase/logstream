@@ -1,3 +1,4 @@
 logstream_example
 *.o
+*.dblite
 
